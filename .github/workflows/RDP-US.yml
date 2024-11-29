@@ -2,8 +2,8 @@ name: Setup RDP on Windows with ZeroTier
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */6 * * *'  # Menjalankan setiap 6 jam
+  # schedule:
+  #   - cron: '0 */6 * * *'  # Menjalankan setiap 6 jam
 
 jobs:
   setup_rdp:
